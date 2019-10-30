@@ -1,0 +1,110 @@
+/* IMAGES */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background-color: white;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
+	font-weight: 400;	
+	margin: 0;
+	padding: 0.5em;
+	color: white;
+	background-color: slateblue;
+	min-height: 100vh;
+	line-height: 1.2;
+	background-image: url(img2/cover.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+header {
+	padding: 0.5em;
+}
+
+header img {
+	width: 100%;
+	position: center;
+	transform: scale(1);
+	filter: grayscale(0);
+
+}
+
+footer {
+	padding: 0.5em;
+	text-align: right;
+}
+
+figure {
+	margin: 0;
+	padding: 0.5em;
+	width: 25%;
+	border-image: 5em 7em;
+}
+
+h1 {
+	position: fixed;
+    top: 0.5em;
+    left: -0.5em;
+    text-align: center;
+    font-size: 10em;
+    z-index: 0;
+    mix-blend-mode: color-dodge;
+    color: #68f9eb;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+    transform: rotate(-40deg);
+}
+
+h2{
+	position: fixed;
+	max-width: 
+    top: 3em;
+    text-align: center;
+    font-size: 7em;
+    z-index: 0;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    transform: rotate(0deg);
+
+}
+
+img{
+max-width: 100%;
+height: auto;
+position: relative;
+
+}
+
+main{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+figure:hover {
+	mix-blend-mode: unset;
+	border-color: transparent;
+	transform: scale(1.25);
+	z-index: 1;
+}
+
+
+
+
+
+
